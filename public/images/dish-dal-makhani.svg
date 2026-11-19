@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <circle cx="200" cy="154" r="106" fill="#E3CEB4"/>
+  <circle cx="200" cy="150" r="95" fill="#FFFDF8"/>
+  <!-- Dal Makhani Bowl -->
+  <circle cx="200" cy="150" r="78" fill="#5A281A"/>
+  <circle cx="200" cy="150" r="68" fill="#7D3B23"/>
+  <!-- Cream swirl + Butter pat -->
+  <path d="M168 148 C176 122, 224 122, 230 148 C236 176, 174 184, 174 156 C174 140, 206 138, 212 152" stroke="#FFF8ED" stroke-width="5" stroke-linecap="round"/>
+  <rect x="190" y="138" width="22" height="16" rx="3" transform="rotate(-10 190 138)" fill="#F9D56E"/>
+  <ellipse cx="222" cy="126" rx="9" ry="4" transform="rotate(-28 222 126)" fill="#2F7D32"/>
+</svg>

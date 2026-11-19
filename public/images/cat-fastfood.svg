@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#FBF0E2"/>
+  <ellipse cx="200" cy="222" rx="112" ry="26" fill="#E2CFBA"/>
+  <!-- Fries Cup -->
+  <path d="M132 136 L148 214 L252 214 L268 136 Q200 156 132 136 Z" fill="#641E24"/>
+  <!-- Golden Fries -->
+  <rect x="148" y="76" width="16" height="72" rx="5" transform="rotate(-12 148 76)" fill="#F7B733"/>
+  <rect x="172" y="64" width="16" height="82" rx="5" transform="rotate(-4 172 64)" fill="#FBC54B"/>
+  <rect x="196" y="60" width="16" height="86" rx="5" fill="#F28C28"/>
+  <rect x="218" y="66" width="16" height="80" rx="5" transform="rotate(6 218 66)" fill="#F7B733"/>
+  <rect x="238" y="78" width="16" height="70" rx="5" transform="rotate(14 238 78)" fill="#FBC54B"/>
+  <!-- Ketchup dip -->
+  <circle cx="288" cy="204" r="24" fill="#FFFDF8"/>
+  <circle cx="288" cy="204" r="17" fill="#C93528"/>
+</svg>

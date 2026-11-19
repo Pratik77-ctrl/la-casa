@@ -1,0 +1,214 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Registered customer or administrator account profile.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "fullName": { "type": "string", "minLength": 2, "maxLength": 100 },
+        "email": { "type": "string", "format": "email", "maxLength": 160 },
+        "phone": { "type": "string", "minLength": 0, "maxLength": 20 },
+        "role": { "type": "string", "enum": ["customer", "admin"] },
+        "addresses": { "type": "array", "description": "Bounded list of saved delivery addresses (max 10)." },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "fullName", "email", "phone", "role", "createdAt", "updatedAt"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "Authoritative administrator allowlist record.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "email": { "type": "string", "format": "email", "maxLength": 160 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "createdAt"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Food menu category.",
+      "type": "object",
+      "properties": {
+        "categoryId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "imageUrl": { "type": "string", "maxLength": 1000 },
+        "displayOrder": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["categoryId", "name", "imageUrl", "displayOrder", "createdAt"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Menu food item.",
+      "type": "object",
+      "properties": {
+        "productId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "minLength": 2, "maxLength": 120 },
+        "description": { "type": "string", "minLength": 5, "maxLength": 600 },
+        "ingredients": { "type": "array", "description": "Bounded list of key ingredients (max 25)." },
+        "category": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "price": { "type": "number" },
+        "imageUrl": { "type": "string", "maxLength": 1000 },
+        "foodType": { "type": "string", "enum": ["veg", "non-veg"] },
+        "available": { "type": "boolean" },
+        "popularity": { "type": "number" },
+        "isBestseller": { "type": "boolean" },
+        "isRecommended": { "type": "boolean" },
+        "prepTime": { "type": "string", "maxLength": 40 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["productId", "name", "description", "category", "price", "imageUrl", "foodType", "available", "popularity", "createdAt", "updatedAt"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer food order placed via checkout.",
+      "type": "object",
+      "properties": {
+        "orderId": { "type": "string", "minLength": 4, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "customerName": { "type": "string", "minLength": 2, "maxLength": 100 },
+        "phone": { "type": "string", "minLength": 10, "maxLength": 20 },
+        "items": { "type": "array", "description": "Bounded list of ordered items (max 50)." },
+        "subtotal": { "type": "number" },
+        "discount": { "type": "number" },
+        "couponCode": { "type": "string", "maxLength": 32 },
+        "tax": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "orderType": { "type": "string", "enum": ["delivery", "takeaway"] },
+        "address": { "type": "string", "maxLength": 300 },
+        "instructions": { "type": "string", "maxLength": 300 },
+        "paymentMethod": { "type": "string", "enum": ["cod", "pay_at_restaurant", "upi"] },
+        "paymentStatus": { "type": "string", "enum": ["pending", "paid", "failed"] },
+        "orderStatus": {
+          "type": "string",
+          "enum": [
+            "Order Placed",
+            "Order Confirmed",
+            "Preparing",
+            "Ready for Pickup",
+            "Out for Delivery",
+            "Completed",
+            "Cancelled"
+          ]
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": [
+        "orderId",
+        "userId",
+        "customerName",
+        "phone",
+        "items",
+        "subtotal",
+        "discount",
+        "tax",
+        "totalAmount",
+        "orderType",
+        "address",
+        "paymentMethod",
+        "paymentStatus",
+        "orderStatus",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "Offer": {
+      "title": "Offer",
+      "description": "Promotional discount offer and coupon code.",
+      "type": "object",
+      "properties": {
+        "offerId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "title": { "type": "string", "minLength": 3, "maxLength": 100 },
+        "description": { "type": "string", "minLength": 5, "maxLength": 300 },
+        "discount": { "type": "number" },
+        "discountType": { "type": "string", "enum": ["percent", "flat"] },
+        "minOrder": { "type": "number" },
+        "couponCode": { "type": "string", "minLength": 3, "maxLength": 24, "pattern": "^[A-Z0-9_\\-]+$" },
+        "active": { "type": "boolean" },
+        "expiryDate": { "type": "string", "maxLength": 32 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["offerId", "title", "description", "discount", "discountType", "minOrder", "couponCode", "active", "expiryDate", "createdAt"]
+    },
+    "Favourite": {
+      "title": "Favourite",
+      "description": "User's favourite dish IDs.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "productIds": { "type": "array", "description": "Bounded list of favourited product IDs (max 100)." },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "productIds", "updatedAt"]
+    },
+    "Cart": {
+      "title": "Cart",
+      "description": "Authenticated customer's persisted shopping cart.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "items": { "type": "array", "description": "Bounded list of cart items (max 50)." },
+        "couponCode": { "type": "string", "maxLength": 32 },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "items", "updatedAt"]
+    },
+    "Review": {
+      "title": "Review",
+      "description": "Customer review for La Casa dishes.",
+      "type": "object",
+      "properties": {
+        "reviewId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "userName": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "rating": { "type": "number" },
+        "comment": { "type": "string", "minLength": 5, "maxLength": 400 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["reviewId", "userId", "userName", "rating", "comment", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Private customer/admin user profile documents (PII protected)."
+    },
+    "/admins/{userId}": {
+      "schema": { "$ref": "#/entities/Admin" },
+      "description": "Authoritative admin role lookup documents."
+    },
+    "/categories/{categoryId}": {
+      "schema": { "$ref": "#/entities/Category" },
+      "description": "Public restaurant food categories."
+    },
+    "/products/{productId}": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Public restaurant food menu items."
+    },
+    "/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "Customer orders; strictly isolated per customer and readable/manageable by admins."
+    },
+    "/offers/{offerId}": {
+      "schema": { "$ref": "#/entities/Offer" },
+      "description": "Promotional coupon offers."
+    },
+    "/favourites/{userId}": {
+      "schema": { "$ref": "#/entities/Favourite" },
+      "description": "Per-user saved favourite product IDs."
+    },
+    "/carts/{userId}": {
+      "schema": { "$ref": "#/entities/Cart" },
+      "description": "Per-user persisted shopping cart."
+    },
+    "/reviews/{reviewId}": {
+      "schema": { "$ref": "#/entities/Review" },
+      "description": "Customer dining reviews."
+    }
+  }
+}

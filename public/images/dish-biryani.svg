@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="186" rx="112" ry="58" fill="#DFCEB9"/>
+  <!-- Copper Handi Pot -->
+  <path d="M112 146 C112 214, 288 214, 288 146 Z" fill="#B86B35"/>
+  <ellipse cx="200" cy="146" rx="88" ry="26" fill="#FFF6DC"/>
+  <ellipse cx="200" cy="146" rx="88" ry="26" stroke="#641E24" stroke-width="5"/>
+  <!-- Saffron rice grains & Chicken pieces -->
+  <ellipse cx="170" cy="144" rx="18" ry="9" fill="#F28C28"/>
+  <ellipse cx="226" cy="148" rx="20" ry="10" fill="#D96B27"/>
+  <circle cx="198" cy="138" r="11" fill="#A93818"/>
+  <circle cx="152" cy="152" r="9" fill="#A93818"/>
+  <path d="M180 128 C192 122, 214 126, 224 134" stroke="#7A3E18" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="248" cy="136" rx="10" ry="4" transform="rotate(-18 248 136)" fill="#2F7D32"/>
+</svg>

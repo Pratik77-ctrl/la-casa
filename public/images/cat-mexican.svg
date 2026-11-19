@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F9ECE0"/>
+  <ellipse cx="200" cy="196" rx="120" ry="44" fill="#DFC9AE"/>
+  <!-- Taco Shells -->
+  <path d="M110 175 C110 108, 215 108, 215 175 Z" fill="#F0B548"/>
+  <path d="M185 182 C185 115, 290 115, 290 182 Z" fill="#E6A435"/>
+  <!-- Filling -->
+  <path d="M120 170 Q140 144 165 162 Q188 142 205 170" stroke="#43A047" stroke-width="10" stroke-linecap="round"/>
+  <path d="M195 177 Q215 150 240 168 Q262 148 280 177" stroke="#4CAF50" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="152" cy="158" r="7" fill="#D32F2F"/>
+  <circle cx="176" cy="162" r="6" fill="#FFF8ED"/>
+  <circle cx="228" cy="165" r="7" fill="#D32F2F"/>
+  <circle cx="256" cy="166" r="6" fill="#FFF8ED"/>
+</svg>

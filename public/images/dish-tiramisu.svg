@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="234" rx="96" ry="20" fill="#DFCEB9"/>
+  <!-- Tiramisu Glass Jar -->
+  <rect x="142" y="96" width="116" height="128" rx="18" fill="#FFFDF8" stroke="#DFCBB3" stroke-width="4"/>
+  <!-- Espresso Ladyfinger Layer -->
+  <rect x="148" y="176" width="104" height="38" rx="8" fill="#6F432A"/>
+  <!-- Mascarpone Layer -->
+  <rect x="148" y="140" width="104" height="36" fill="#FFF6E5"/>
+  <!-- Second Espresso + Cream -->
+  <rect x="148" y="114" width="104" height="26" fill="#8C583A"/>
+  <path d="M148 114 C148 98, 252 98, 252 114 Z" fill="#FFFDF8"/>
+  <!-- Cocoa Dusting & Coffee Bean -->
+  <path d="M154 108 H246" stroke="#4D2918" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="200" cy="96" rx="9" ry="6" fill="#3B1E10"/>
+</svg>

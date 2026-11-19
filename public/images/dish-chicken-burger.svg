@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="236" rx="105" ry="22" fill="#DFCEB9"/>
+  <!-- Bottom Bun -->
+  <path d="M116 196 H284 C284 216, 266 226, 200 226 C134 226, 116 216, 116 196 Z" fill="#D48B44"/>
+  <!-- Spicy Mayo & Crispy Chicken Patty -->
+  <rect x="110" y="168" width="180" height="28" rx="12" fill="#C85D1E"/>
+  <path d="M118 168 L138 158 L164 168 L194 156 L224 168 L254 158 L280 168 Z" fill="#F28C28"/>
+  <!-- Lettuce & Cheddar -->
+  <path d="M118 156 Q142 142 164 156 T212 156 T260 156 T286 154" stroke="#4CA64C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M138 152 L262 152 L242 170 L182 164 Z" fill="#FFCA3A"/>
+  <!-- Top Bun -->
+  <path d="M116 144 C116 90, 284 90, 284 144 Z" fill="#E09B52"/>
+  <ellipse cx="164" cy="112" rx="5" ry="2.5" fill="#FFF8ED"/>
+  <ellipse cx="202" cy="104" rx="5" ry="2.5" fill="#FFF8ED"/>
+  <ellipse cx="238" cy="116" rx="5" ry="2.5" fill="#FFF8ED"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F5EFE6"/>
+  <ellipse cx="200" cy="236" rx="95" ry="22" fill="#DFCEB9"/>
+  <!-- Cold Coffee / Mojito Glass -->
+  <path d="M150 92 L162 224 L238 224 L250 92 Z" fill="#D4E8E0" fill-opacity="0.7" stroke="#FFFDF8" stroke-width="4"/>
+  <path d="M156 124 L164 220 L236 220 L244 124 Z" fill="#6D432E"/>
+  <path d="M154 108 C178 96, 222 96, 246 108 L244 134 C216 142, 184 142, 156 134 Z" fill="#FFF8ED"/>
+  <!-- Ice cubes -->
+  <rect x="174" y="138" width="22" height="22" rx="4" transform="rotate(12 174 138)" fill="#FFFDF8" fill-opacity="0.5"/>
+  <rect x="206" y="152" width="20" height="20" rx="4" transform="rotate(-14 206 152)" fill="#FFFDF8" fill-opacity="0.45"/>
+  <!-- Straw -->
+  <path d="M212 114 L238 42 L262 36" stroke="#F28C28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mint leaf -->
+  <ellipse cx="176" cy="96" rx="14" ry="7" transform="rotate(-24 176 96)" fill="#2F7D32"/>
+</svg>

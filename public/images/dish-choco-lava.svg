@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="222" rx="116" ry="26" fill="#DFCEB9"/>
+  <ellipse cx="200" cy="214" rx="102" ry="20" fill="#FFFDF8"/>
+  <!-- Dark Chocolate Cake Body -->
+  <path d="M140 132 L152 212 H248 L260 132 Z" fill="#3B1E12"/>
+  <ellipse cx="200" cy="132" rx="60" ry="16" fill="#4D291A"/>
+  <!-- Flowing Molten Chocolate Lava -->
+  <path d="M168 132 C176 164, 174 200, 198 214 C224 214, 214 166, 228 134 Z" fill="#6D3219"/>
+  <ellipse cx="200" cy="214" rx="44" ry="8" fill="#5A2812"/>
+  <!-- Mint Leaf Garnish -->
+  <ellipse cx="218" cy="122" rx="10" ry="5" transform="rotate(-24 218 122)" fill="#2F7D32"/>
+</svg>

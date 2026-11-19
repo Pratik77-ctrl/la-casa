@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <circle cx="200" cy="154" r="106" fill="#DFCEB9"/>
+  <circle cx="200" cy="150" r="92" fill="#FFFDF8"/>
+  <!-- Honey Chilli Potato Fingers -->
+  <rect x="134" y="130" width="76" height="16" rx="6" transform="rotate(-22 134 130)" fill="#D94814"/>
+  <rect x="166" y="116" width="82" height="16" rx="6" transform="rotate(14 166 116)" fill="#E65C1C"/>
+  <rect x="148" y="160" width="84" height="16" rx="6" transform="rotate(8 148 160)" fill="#C93B10"/>
+  <rect x="184" y="146" width="78" height="16" rx="6" transform="rotate(-14 184 146)" fill="#F28C28"/>
+  <rect x="162" y="182" width="72" height="15" rx="6" transform="rotate(-8 162 182)" fill="#D94814"/>
+  <!-- Sesame seeds & Spring Onion -->
+  <circle cx="174" cy="136" r="2.5" fill="#FFF8ED"/>
+  <circle cx="206" cy="130" r="2.5" fill="#FFF8ED"/>
+  <circle cx="218" cy="162" r="2.5" fill="#FFF8ED"/>
+  <circle cx="186" cy="170" r="2.5" fill="#FFF8ED"/>
+  <circle cx="198" cy="148" r="5" stroke="#2F7D32" stroke-width="3"/>
+  <circle cx="236" cy="144" r="5" stroke="#2F7D32" stroke-width="3"/>
+</svg>

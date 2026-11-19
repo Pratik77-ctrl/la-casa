@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#FAF0E6"/>
+  <ellipse cx="200" cy="216" rx="108" ry="30" fill="#E3D0B8"/>
+  <ellipse cx="200" cy="208" rx="92" ry="22" fill="#FFFDF8"/>
+  <!-- Chocolate Brownie & Ice Cream Scoop -->
+  <rect x="136" y="142" width="128" height="62" rx="10" fill="#4B261B"/>
+  <path d="M136 156 Q168 174 200 156 T264 156" stroke="#2D150E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="200" cy="126" r="34" fill="#FFF8ED"/>
+  <path d="M174 118 C190 100, 222 106, 228 124" stroke="#641E24" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="92" r="8" fill="#C62828"/>
+</svg>

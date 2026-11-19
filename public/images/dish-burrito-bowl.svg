@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <circle cx="200" cy="154" r="104" fill="#DFCEB9"/>
+  <circle cx="200" cy="150" r="92" fill="#242424"/>
+  <circle cx="200" cy="150" r="82" fill="#FBF5E6"/>
+  <!-- Mexican Burrito Bowl Quadrants -->
+  <path d="M200 150 L200 72 A78 78 0 0 1 278 150 Z" fill="#E8B931"/>
+  <path d="M200 150 L278 150 A78 78 0 0 1 200 228 Z" fill="#C93B2B"/>
+  <path d="M200 150 L200 228 A78 78 0 0 1 122 150 Z" fill="#5D3A29"/>
+  <!-- Grilled Paneer Cubes & Sour Cream -->
+  <rect x="148" y="106" width="20" height="16" rx="4" transform="rotate(-12 148 106)" fill="#F28C28"/>
+  <rect x="166" y="124" width="20" height="16" rx="4" transform="rotate(14 166 124)" fill="#E07316"/>
+  <circle cx="200" cy="150" r="22" fill="#FFFDF8"/>
+  <ellipse cx="200" cy="150" rx="8" ry="4" transform="rotate(-24 200 150)" fill="#2F7D32"/>
+</svg>

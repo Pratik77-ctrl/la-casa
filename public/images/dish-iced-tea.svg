@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="236" rx="95" ry="22" fill="#DFCEB9"/>
+  <!-- Glass with Amber Peach Iced Tea -->
+  <path d="M148 92 L162 224 L238 224 L252 92 Z" fill="#FFFDF8" fill-opacity="0.7" stroke="#FFFDF8" stroke-width="4"/>
+  <path d="M154 120 L164 220 L236 220 L246 120 Z" fill="#E88D34"/>
+  <!-- Peach Wedge + Ice -->
+  <path d="M214 96 A26 26 0 0 1 258 118 L234 118 Z" fill="#F4A261" stroke="#D95F28" stroke-width="3"/>
+  <rect x="174" y="138" width="22" height="22" rx="4" transform="rotate(14 174 138)" fill="#FFF8ED" fill-opacity="0.55"/>
+  <rect x="202" y="164" width="22" height="22" rx="4" transform="rotate(-12 202 164)" fill="#FFF8ED" fill-opacity="0.5"/>
+  <!-- Straw + Basil Leaf -->
+  <path d="M196 124 L172 44 L148 38" stroke="#641E24" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="210" cy="108" rx="14" ry="7" transform="rotate(-22 210 108)" fill="#2F7D32"/>
+</svg>

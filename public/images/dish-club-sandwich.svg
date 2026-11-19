@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="226" rx="116" ry="24" fill="#DFCEB9"/>
+  <!-- Toasted Triangle Grilled Sandwich -->
+  <polygon points="104,196 296,196 200,98" fill="#DDA15E" stroke="#8C4E22" stroke-width="4"/>
+  <polygon points="122,190 278,190 200,114" fill="#FFF8ED"/>
+  <!-- Green Chutney & Melted Cheese -->
+  <rect x="136" y="168" width="128" height="10" rx="4" fill="#2F7D32"/>
+  <rect x="148" y="156" width="104" height="12" rx="4" fill="#FFCA3A"/>
+  <!-- Grill Marks -->
+  <line x1="168" y1="130" x2="224" y2="148" stroke="#641E24" stroke-width="5" stroke-linecap="round"/>
+  <line x1="154" y1="148" x2="246" y2="174" stroke="#641E24" stroke-width="5" stroke-linecap="round"/>
+</svg>

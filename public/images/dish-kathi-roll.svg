@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="230" rx="110" ry="22" fill="#DFCEB9"/>
+  <!-- Kathi Roll Wrap -->
+  <g transform="rotate(-14 200 154)">
+    <rect x="112" y="122" width="176" height="62" rx="28" fill="#E6AE68" stroke="#A66A2C" stroke-width="4"/>
+    <!-- Paper sleeve -->
+    <rect x="108" y="122" width="84" height="62" rx="10" fill="#641E24"/>
+    <!-- Stuffing peeking out -->
+    <circle cx="272" cy="144" r="11" fill="#C94B27"/>
+    <circle cx="268" cy="164" r="10" fill="#2F7D32"/>
+    <circle cx="256" cy="152" r="9" fill="#FFF8ED"/>
+  </g>
+</svg>

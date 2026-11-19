@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <circle cx="200" cy="154" r="106" fill="#DFCEB9"/>
+  <circle cx="200" cy="150" r="92" fill="#FFFDF8"/>
+  <!-- Nacho Chips -->
+  <polygon points="142,188 184,116 226,188" fill="#F2B830" stroke="#D98218" stroke-width="3"/>
+  <polygon points="184,192 224,112 268,192" fill="#F4A226" stroke="#C96F12" stroke-width="3"/>
+  <polygon points="118,174 152,118 188,174" fill="#F7C948" stroke="#D98218" stroke-width="3"/>
+  <!-- Melted Cheese & Salsa & Jalapenos -->
+  <path d="M148 158 C168 144, 212 144, 236 164" stroke="#FFCA3A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="194" cy="154" r="14" fill="#C9332B"/>
+  <circle cx="222" cy="166" r="6" stroke="#2F7D32" stroke-width="4"/>
+  <circle cx="164" cy="164" r="6" stroke="#2F7D32" stroke-width="4"/>
+</svg>

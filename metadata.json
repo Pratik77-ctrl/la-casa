@@ -1,0 +1,6 @@
+{
+  "name": "La Casa — Multi-Cuisine Restaurant & Ordering",
+  "description": "A World of Flavours. One Affordable Place. Order Indian, Chinese, Italian, Mexican, pizzas, burgers, and beverages from La Casa in Selaqui, Dehradun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

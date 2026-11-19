@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <ellipse cx="200" cy="236" rx="95" ry="22" fill="#DFCEB9"/>
+  <!-- Tall Shake Glass -->
+  <path d="M150 96 L162 224 L238 224 L250 96 Z" fill="#EFE4D6" stroke="#FFFDF8" stroke-width="4"/>
+  <path d="M155 118 L164 220 L236 220 L245 118 Z" fill="#3B2318"/>
+  <!-- Cream Dome -->
+  <path d="M150 110 C150 74, 250 74, 250 110 Z" fill="#FFFDF8"/>
+  <!-- Chocolate Cookie Wedged on Top -->
+  <circle cx="222" cy="84" r="18" fill="#242424"/>
+  <circle cx="222" cy="84" r="10" fill="#3D3D3D"/>
+  <!-- Cookie Crumbs -->
+  <circle cx="182" cy="98" r="3" fill="#242424"/>
+  <circle cx="198" cy="92" r="3" fill="#242424"/>
+  <circle cx="204" cy="104" r="2.5" fill="#242424"/>
+  <path d="M178 96 L158 46" stroke="#641E24" stroke-width="8" stroke-linecap="round"/>
+</svg>

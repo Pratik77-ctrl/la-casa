@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F8ECE1"/>
+  <circle cx="200" cy="154" r="108" fill="#D89A52"/>
+  <circle cx="200" cy="150" r="96" fill="#E8B268"/>
+  <circle cx="200" cy="150" r="88" fill="#C63A28"/>
+  <circle cx="200" cy="150" r="80" fill="#F9DF96"/>
+  <line x1="200" y1="62" x2="200" y2="238" stroke="#D89A52" stroke-width="2" opacity="0.5"/>
+  <line x1="112" y1="150" x2="288" y2="150" stroke="#D89A52" stroke-width="2" opacity="0.5"/>
+  <circle cx="164" cy="118" r="14" fill="#FFFDF7"/>
+  <circle cx="234" cy="122" r="13" fill="#FFFDF7"/>
+  <circle cx="168" cy="182" r="14" fill="#FFFDF7"/>
+  <circle cx="232" cy="180" r="13" fill="#FFFDF7"/>
+  <circle cx="200" cy="96" r="10" fill="#C63A28"/>
+  <circle cx="144" cy="154" r="9" fill="#C63A28"/>
+  <circle cx="256" cy="152" r="9" fill="#C63A28"/>
+  <ellipse cx="196" cy="146" rx="10" ry="5" transform="rotate(-24 196 146)" fill="#2F7D32"/>
+  <ellipse cx="216" cy="162" rx="10" ry="5" transform="rotate(28 216 162)" fill="#388E3C"/>
+</svg>

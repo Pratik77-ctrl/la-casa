@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F4EDE4"/>
+  <circle cx="200" cy="154" r="104" fill="#2A2625"/>
+  <circle cx="200" cy="150" r="92" fill="#F3E4C9"/>
+  <!-- Spicy Chilli Chicken Side -->
+  <circle cx="232" cy="146" r="46" fill="#A62A1F"/>
+  <rect x="210" y="120" width="22" height="16" rx="5" fill="#781B14"/>
+  <rect x="238" y="138" width="22" height="16" rx="5" fill="#781B14"/>
+  <rect x="216" y="158" width="22" height="16" rx="5" fill="#781B14"/>
+  <!-- Scallions & Roasted Garlic -->
+  <circle cx="156" cy="126" r="5" fill="#388E3C"/>
+  <circle cx="174" cy="154" r="5" fill="#388E3C"/>
+  <circle cx="154" cy="182" r="5" fill="#388E3C"/>
+  <ellipse cx="168" cy="112" rx="6" ry="3" fill="#B57A42"/>
+  <ellipse cx="144" cy="156" rx="6" ry="3" fill="#B57A42"/>
+</svg>

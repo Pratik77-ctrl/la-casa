@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F7EFE4"/>
+  <circle cx="200" cy="154" r="106" fill="#E3CEB4"/>
+  <circle cx="200" cy="150" r="95" fill="#FFFDF8"/>
+  <!-- Pesto Spaghetti Swirl -->
+  <circle cx="200" cy="150" r="66" fill="#F4C96B"/>
+  <path d="M148 144 C166 106, 234 106, 250 144 C264 178, 174 206, 152 164 C138 134, 212 118, 224 150" stroke="#4C8C3E" stroke-width="9" stroke-linecap="round"/>
+  <path d="M164 158 C184 126, 236 138, 218 172" stroke="#62A84F" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cherry Tomatoes & Basil -->
+  <circle cx="172" cy="134" r="10" fill="#C9332B"/>
+  <circle cx="228" cy="138" r="9" fill="#C9332B"/>
+  <circle cx="200" cy="176" r="10" fill="#C9332B"/>
+  <ellipse cx="200" cy="144" rx="12" ry="6" transform="rotate(-15 200 144)" fill="#2F7D32"/>
+</svg>
